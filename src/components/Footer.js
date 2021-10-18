@@ -87,7 +87,9 @@ function Footer() {
                 placeholder="Enter Email"
                 className="footer-input"
               />
-              <Link buttonStyle="btn--outline">Subscribe</Link>
+              <button className="btn btn--outline btn--medium">
+                Subscribe
+              </button>
             </form>
           </div>
         </section>
@@ -132,7 +134,9 @@ function Footer() {
                 CODEJET
               </Link>
             </div>
-            <small className="website-rights">CODEJET © 2021</small>
+            <small className="website-rights">
+              All right reserved || CODEJET © 2021
+            </small>
             <div className="social-icons">
               <a
                 className="social-icon-link Linkedin"
