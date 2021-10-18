@@ -83,7 +83,6 @@ export default function Home() {
               <div className="col-md-5">
                 <h2> Delivering digital Solutions at affordable prices </h2>
                 <p>
-                  {" "}
                   We are here to help you to take your business into next step,
                   where you focus on the business and we take care of all the
                   technical requirements.
@@ -95,10 +94,10 @@ export default function Home() {
                     very low prices for all of your IT needs.
                   </small>
                 </p>
-                <a href="/">
-                  Learn More{" "}
+                <Link to="/about">
+                  Learn More
                   <i className="fa fa-angle-right" aria-hidden="true" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -121,9 +120,7 @@ export default function Home() {
                   />
                 </linearGradient>
               </defs>
-              {/* <clipPath id="clip-path3">
 
-                                            </clipPath> */}
               <path
                 fillRule="evenodd"
                 fill="url(#PSgrad_03)"
@@ -145,7 +142,7 @@ export default function Home() {
               <div className="col-3">
                 <div className="card">
                   <div className="card-body">
-                    <h5 className="card-title">125</h5>
+                    <h5 className="card-title">10</h5>
                     <p className="card-text">Active Projects</p>
                   </div>
                 </div>
@@ -153,7 +150,7 @@ export default function Home() {
               <div className="col-3">
                 <div className="card">
                   <div className="card-body">
-                    <h5 className="card-title">200</h5>
+                    <h5 className="card-title">20x</h5>
                     <p className="card-text">Business Growth</p>
                   </div>
                 </div>
@@ -161,7 +158,7 @@ export default function Home() {
               <div className="col-3">
                 <div className="card">
                   <div className="card-body">
-                    <h5 className="card-title">530</h5>
+                    <h5 className="card-title">8</h5>
                     <p className="card-text">Completed Projects</p>
                   </div>
                 </div>
@@ -169,7 +166,7 @@ export default function Home() {
               <div className="col-3">
                 <div className="card">
                   <div className="card-body">
-                    <h5 className="card-title">941</h5>
+                    <h5 className="card-title">5</h5>
                     <p className="card-text">Happy Clients</p>
                   </div>
                 </div>
@@ -179,91 +176,10 @@ export default function Home() {
         </div>
         <div className="container-fluid gtco-testimonials">
           <div className="container">
-            <h2>What our customers say about us.</h2>
-            <div className="owl-carousel owl-carousel1 owl-theme">
-              <div>
-                <div className="card text-center">
-                  <img
-                    className="card-img-top"
-                    src="images/customer1.jpg"
-                    alt=""
-                  />
-                  <div className="card-body">
-                    <h5>
-                      Lisa Gally <br />
-                      <span> Project Manager </span>
-                    </h5>
-                    <p className="card-text">
-                      “ Nam libero tempore, cum soluta nobis est eligendi optio
-                      cumque nihil impedit quo minus id quod maxime placeat ”{" "}
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div className="card text-center">
-                  <img
-                    className="card-img-top"
-                    src="images/customer2.jpg"
-                    alt=""
-                  />
-                  <div className="card-body">
-                    <h5>
-                      Missy Limana
-                      <br />
-                      <span> Project Manager </span>
-                    </h5>
-                    <p className="card-text">
-                      “ Nam libero tempore, cum soluta nobis est eligendi optio
-                      cumque nihil impedit quo minus id quod maxime placeat ”{" "}
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div className="card text-center">
-                  <img
-                    className="card-img-top"
-                    src="images/customer3.jpg"
-                    alt=""
-                  />
-                  <div className="card-body">
-                    <h5>
-                      Aana Brown
-                      <br />
-                      <span> Project Manager </span>
-                    </h5>
-                    <p className="card-text">
-                      “ Nam libero tempore, cum soluta nobis est eligendi optio
-                      cumque nihil impedit quo minus id quod maxime placeat ”{" "}
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div className="card text-center">
-                  <img
-                    className="card-img-top"
-                    src="images/customer3.jpg"
-                    alt=""
-                  />
-                  <div className="card-body">
-                    <h5>
-                      Aana Brown
-                      <br />
-                      <span> Project Manager </span>
-                    </h5>
-                    <p className="card-text">
-                      “ Nam libero tempore, cum soluta nobis est eligendi optio
-                      cumque nihil impedit quo minus id quod maxime placeat ”{" "}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <h2>Our Vision</h2>
           </div>
         </div>
-        <div className="container-fluid gtco-features-list">
+        <div className="container-fluid gtco-features-list mb-5">
           <div className="container">
             <div className="row">
               <div className="media col-md-6 col-lg-4">
@@ -276,26 +192,11 @@ export default function Home() {
                 </div>
                 <div className="media-body">
                   <h5 className="mb-0">Quality Results</h5>
-                  Aliquam a nisl pulvinar, hendrerit arcu sed, dapibus velit.
-                  Duis ac quam id sapien vestibulum fermentum ac eu eros.
-                  Aliquam erat volutpat.
+                  We believe in giving the best quality solution to our
+                  customers.
                 </div>
               </div>
-              <div className="media col-md-6 col-lg-4">
-                <div className="oval mr-4">
-                  <img
-                    className="align-self-start"
-                    src="images/analytics.png"
-                    alt=""
-                  />
-                </div>
-                <div className="media-body">
-                  <h5 className="mb-0">Analytics</h5>
-                  Aliquam a nisl pulvinar, hendrerit arcu sed, dapibus velit.
-                  Duis ac quam id sapien vestibulum fermentum ac eu eros.
-                  Aliquam erat volutpat.
-                </div>
-              </div>
+
               <div className="media col-md-6 col-lg-4">
                 <div className="oval mr-4">
                   <img
@@ -306,26 +207,11 @@ export default function Home() {
                 </div>
                 <div className="media-body">
                   <h5 className="mb-0">Affordable Pricing</h5>
-                  Aliquam a nisl pulvinar, hendrerit arcu sed, dapibus velit.
-                  Duis ac quam id sapien vestibulum fermentum ac eu eros.
-                  Aliquam erat volutpat.
+                  Our aim is to provide best quality solution with a affordable
+                  price.
                 </div>
               </div>
-              <div className="media col-md-6 col-lg-4">
-                <div className="oval mr-4">
-                  <img
-                    className="align-self-start"
-                    src="images/easy-to-use.png"
-                    alt=""
-                  />
-                </div>
-                <div className="media-body">
-                  <h5 className="mb-0">Easy To Use</h5>
-                  Aliquam a nisl pulvinar, hendrerit arcu sed, dapibus velit.
-                  Duis ac quam id sapien vestibulum fermentum ac eu eros.
-                  Aliquam erat volutpat.
-                </div>
-              </div>
+
               <div className="media col-md-6 col-lg-4">
                 <div className="oval mr-4">
                   <img
@@ -335,179 +221,8 @@ export default function Home() {
                   />
                 </div>
                 <div className="media-body">
-                  <h5 className="mb-0">Free Support</h5>
-                  Aliquam a nisl pulvinar, hendrerit arcu sed, dapibus velit.
-                  Duis ac quam id sapien vestibulum fermentum ac eu eros.
-                  Aliquam erat volutpat.
-                </div>
-              </div>
-              <div className="media col-md-6 col-lg-4">
-                <div className="oval mr-4">
-                  <img
-                    className="align-self-start"
-                    src="images/effectively-increase.png"
-                    alt=""
-                  />
-                </div>
-                <div className="media-body">
-                  <h5 className="mb-0">Effectively Increase</h5>
-                  Aliquam a nisl pulvinar, hendrerit arcu sed, dapibus velit.
-                  Duis ac quam id sapien vestibulum fermentum ac eu eros.
-                  Aliquam erat volutpat.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="container-fluid gtco-logo-area">
-          <div className="container">
-            <div className="row">
-              <div className="col">
-                <img src="images/logo1.png" className="img-fluid" alt="" />
-              </div>
-              <div className="col">
-                <img src="images/logo2.png" className="img-fluid" alt="" />
-              </div>
-              <div className="col">
-                <img src="images/logo3.png" className="img-fluid" alt="" />
-              </div>
-              <div className="col">
-                <img src="images/logo4.png" className="img-fluid" alt="" />
-              </div>
-              <div className="col">
-                <img src="images/logo5.png" className="img-fluid" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="container-fluid gtco-news" id="news">
-          <div className="container">
-            <h2>More about us</h2>
-            <div className="owl-carousel owl-carousel2 owl-theme">
-              <div>
-                <div className="card text-center">
-                  <img className="card-img-top" src="images/news1.jpg" alt="" />
-                  <div className="card-body text-left pr-0 pl-0">
-                    <h5>
-                      Aenean ultrices lorem quis blandit tempor urabitur
-                      accumsan.{" "}
-                    </h5>
-                    <p className="card-text">
-                      Donec non sem mi. In hac habitasse platea dictumst. Nullam
-                      a feugiat augue, et porta metus. Nulla mollis lobortis
-                      leet. Maecenas tincidunt, arcu sed ornare purus risus . .
-                      .{" "}
-                    </p>
-                    <a href="#">
-                      READ MORE{" "}
-                      <i className="fa fa-angle-right" aria-hidden="true" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div className="card text-center">
-                  <img className="card-img-top" src="images/news2.jpg" alt="" />
-                  <div className="card-body text-left pr-0 pl-0">
-                    <h5>
-                      {" "}
-                      Nam vel nisi eget odio pulvinar iaculis. Fusce aliquet.{" "}
-                    </h5>
-                    <p className="card-text">
-                      Donec non sem mi. In hac habitasse platea dictumst. Nullam
-                      a feugiat augue, et porta metus. Nulla mollis lobortis
-                      leet. Maecenas tincidunt, arcu sed ornare purus risus . .
-                      .{" "}
-                    </p>
-                    <a href="#">
-                      READ MORE{" "}
-                      <i className="fa fa-angle-right" aria-hidden="true" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div className="card text-center">
-                  <img className="card-img-top" src="images/news3.jpg" alt="" />
-                  <div className="card-body text-left pr-0 pl-0">
-                    <h5>
-                      Morbi faucibus odio sollicitudin risus scelerisque
-                      dignissim.{" "}
-                    </h5>
-                    <p className="card-text">
-                      Donec non sem mi. In hac habitasse platea dictumst. Nullam
-                      a feugiat augue, et porta metus. Nulla mollis lobortis
-                      leet. Maecenas tincidunt, arcu sed ornare purus risus . .
-                      .{" "}
-                    </p>
-                    <a href="#">
-                      READ MORE{" "}
-                      <i className="fa fa-angle-right" aria-hidden="true" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div className="card text-center">
-                  <img className="card-img-top" src="images/news1.jpg" alt="" />
-                  <div className="card-body text-left pr-0 pl-0">
-                    <h5>
-                      Aenean ultrices lorem quis blandit tempor urabitur
-                      accumsan.{" "}
-                    </h5>
-                    <p className="card-text">
-                      Donec non sem mi. In hac habitasse platea dictumst. Nullam
-                      a feugiat augue, et porta metus. Nulla mollis lobortis
-                      leet. Maecenas tincidunt, arcu sed ornare purus risus . .
-                      .{" "}
-                    </p>
-                    <a href="#">
-                      READ MORE{" "}
-                      <i className="fa fa-angle-right" aria-hidden="true" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div className="card text-center">
-                  <img className="card-img-top" src="images/news2.jpg" alt="" />
-                  <div className="card-body text-left pr-0 pl-0">
-                    <h5>
-                      {" "}
-                      Nam vel nisi eget odio pulvinar iaculis. Fusce aliquet.{" "}
-                    </h5>
-                    <p className="card-text">
-                      Donec non sem mi. In hac habitasse platea dictumst. Nullam
-                      a feugiat augue, et porta metus. Nulla mollis lobortis
-                      leet. Maecenas tincidunt, arcu sed ornare purus risus . .
-                      .{" "}
-                    </p>
-                    <a href="#">
-                      READ MORE{" "}
-                      <i className="fa fa-angle-right" aria-hidden="true" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div className="card text-center">
-                  <img className="card-img-top" src="images/news3.jpg" alt="" />
-                  <div className="card-body text-left pr-0 pl-0">
-                    <h5>
-                      Morbi faucibus odio sollicitudin risus scelerisque
-                      dignissim.{" "}
-                    </h5>
-                    <p className="card-text">
-                      Donec non sem mi. In hac habitasse platea dictumst. Nullam
-                      a feugiat augue, et porta metus. Nulla mollis lobortis
-                      leet. Maecenas tincidunt, arcu sed ornare purus risus . .
-                      .{" "}
-                    </p>
-                    <a href="#">
-                      READ MORE{" "}
-                      <i className="fa fa-angle-right" aria-hidden="true" />
-                    </a>
-                  </div>
+                  <h5 className="mb-0"> Support</h5>
+                  Our team works is very responsive to support you.
                 </div>
               </div>
             </div>
