@@ -46,6 +46,11 @@ function Hire() {
               <input
                 type="text"
                 className="form-control"
+                placeholder="Time Limit"
+              />
+              <input
+                type="text"
+                className="form-control"
                 placeholder="Experience Required"
               />
               <select className="form-control">

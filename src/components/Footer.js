@@ -104,10 +104,8 @@ function Footer() {
             </div>
             <div className="footer-link-items">
               <h2>Contact Us</h2>
-              <Link to="/">Contact</Link>
-              <Link to="/">Support</Link>
-              <Link to="/">Destinations</Link>
-              <Link to="/">Sponsorships</Link>
+              <Link to="/contact">Contact</Link>
+              <a href="mailto:codejethq@gmail.com">Email</a>
             </div>
           </div>
           <div className="footer-link-wrapper">

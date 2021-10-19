@@ -22,13 +22,18 @@ function Contact() {
                 className="form-control"
                 placeholder="Email Address"
               />
+              <input
+                type="number"
+                className="form-control"
+                placeholder="Phone Number"
+              />
               <textarea
                 className="form-control"
                 placeholder="Message"
                 defaultValue={""}
               />
               <a href="/" className="submit-button">
-                READ MORE <i className="fa fa-angle-right" aria-hidden="true" />
+                Send <i className="fa fa-angle-right" aria-hidden="true" />
               </a>
             </div>
             <div className="col-md-6">
